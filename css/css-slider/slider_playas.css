@@ -1,0 +1,51 @@
+
+.nomba{	
+	color: #fff;
+	width: 80%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 40px;
+	left: 150px;
+	z-index: 2;
+	
+	font-size: 45px;
+	text-align: center;
+}
+
+/*slider de las playas*/
+.container{
+	padding: 0;
+	margin: 0;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 40px #7a7a7a;
+    overflow: hidden;
+    position: relative;
+	top: -54px;
+}
+.container img{
+	
+    position: absolute;
+    animation: round 10s infinite;
+    opacity: 1;
+}
+
+
+@keyframes round{
+    25%{opacity: 1;}
+    40%{opacity: 0;}
+}
+.playa:nth-child(4){
+    animation-delay: 0s;
+}
+
+.playa:nth-child(3){
+    animation-delay: 4s;
+}
+.playa:nth-child(2){
+    animation-delay: 4s;
+}
+.playa:nth-child(1){
+    animation-delay: 4s;
+}

@@ -1,0 +1,97 @@
+/*INICIO CUERPO DEL INDEX*/
+
+p{
+	text-align: justify;
+}
+
+.txtbp{
+	
+	margin: 0;
+	top: 0;
+	left: 0;
+    background: #4E94AB;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+
+    padding: 65px;
+}
+
+
+.txtcara{
+	
+	margin: 0;
+	top: 0;
+	left: 0;
+    background: #17354B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*CUERPO CON ANIMACIONES*/
+.portafolio img{
+	width: 50%;
+	height: 380px;
+	
+}
+/*FIN CUERPO DEL INDEX*/
+
+
+
+
+/*NICIO DEL BLOG*/
+
+#blog h3, h4{
+	text-align: center;
+	width: 550px;
+	font-size: 20px;
+}
+#blog p{
+	text-align: justify;
+	width: 550px;
+	
+}
+#blog .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fff;
+	
+}
+#blog article{
+	margin: 15px;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+/*FIN DEL BLOG*/
+
+
+
+/*INICIO DEL FOOTER*/
+.footer{
+    background: black;
+    color: #fff;
+    padding: 20px;
+    text-align:center; 
+}
+.footer .social [class^="icon-"]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    line-height: 50px;
+    
+}
+/*FIN DEL FOOTER*/
